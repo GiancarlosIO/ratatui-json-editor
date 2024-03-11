@@ -116,4 +116,5 @@ pub fn ui(f: &mut Frame, app: &App) {
 
     f.render_widget(mode_footer, footer_chunks[0]);
     f.render_widget(key_notes_footer, footer_chunks[1]);
+    /// TODO: https://ratatui.rs/tutorials/json-editor/ui-editing/
 }
